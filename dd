@@ -1,0 +1,12 @@
+import std;
+using namespace std;
+
+int main()
+{
+	int x = 7;
+
+	while (x > 6)
+	{
+
+	}
+}
