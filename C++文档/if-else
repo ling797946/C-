@@ -1,0 +1,25 @@
+import std;
+using namespace std;
+
+int main()
+{
+	int a = 0;
+
+	//	仅使用if语句
+	if (a > 1)	
+	{
+		cout << "南风";	//	不执行
+	}
+
+	bool x = true;
+
+	//	if语句和else子句一起使用
+	if (x == true)	
+	{
+		cout << "近前无往";	//	执行
+	}
+	else
+	{
+		cout << "秋风远到";	//不执行
+	}
+}
