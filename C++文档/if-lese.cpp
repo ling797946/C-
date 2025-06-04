@@ -8,7 +8,7 @@ int main()
 	
 	if (a > 1)	
 	{
-		cout << "南风"; // 不执行
+		cout << "南风"; 	// 不执行
 	}
 
 	bool x = true;
