@@ -11,7 +11,7 @@ public:
 	int dd()
 	{
 		i.a;
-		return a;
+		return i.a;
 	}
 }i;	//	标记
 
