@@ -6,7 +6,7 @@ class ai
 {
 	//	类成员列表
 public:
-	int a = 110;
+	int a {};
 
 	int dd()
 	{
