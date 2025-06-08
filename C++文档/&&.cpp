@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {	
 	bool a = true;
-	int x = 1;
+	bool x = false;
 
 	cout << (a && x);
 
