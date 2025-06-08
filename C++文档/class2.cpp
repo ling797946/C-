@@ -4,4 +4,6 @@ using namespace std;
 
 class dd {};	
 
-int main(){}
+int main()
+{
+}
