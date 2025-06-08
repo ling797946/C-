@@ -1,0 +1,11 @@
+import std;
+using namespace std;
+
+int main()
+{	
+	bool a = true;
+	int x = 1;
+
+	cout << (a && x);
+
+}
