@@ -1,8 +1,7 @@
 import std;
 using namespace std;
 
-int main()
-{	
+int main(){	
 	bool a = true;
 	bool x = false;
 
