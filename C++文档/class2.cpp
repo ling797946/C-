@@ -11,5 +11,4 @@ class dd	// 定义类类型
 
 int main()
 {
-
 }
