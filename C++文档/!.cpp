@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	int a = 1;
-	int i = 0;
+	bool a = true;
+	bool i = false;
 
 	cout << "a：" << !a << endl << "i：" << !i;
 }
