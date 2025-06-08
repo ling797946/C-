@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	int a = 110;
-	int x = 110;
+	bool a = true;
+	bool x = true;
 
 	if (a == x)
 	{
