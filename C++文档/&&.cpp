@@ -6,5 +6,4 @@ int main(){
 	bool x = false;
 
 	cout << (a && x);
-
 }
