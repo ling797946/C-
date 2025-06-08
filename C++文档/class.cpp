@@ -6,11 +6,12 @@ class ai
 {
 	// 类成员列表
 public:
-	unsigned long long a =9999999999;
+	long long a = 9999999999;
 
-	unsigned long long dd()
+	long long dd()
 	{
 		i.a;
+
 		return i.a;
 	}
 }i;	// 标记
