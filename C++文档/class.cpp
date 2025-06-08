@@ -6,9 +6,9 @@ class ai
 {
 	// 类成员列表
 public:
-	int a {};
+	bool a {};
 
-	int dd()
+	bool dd()
 	{
 		i.a;
 		return i.a;
