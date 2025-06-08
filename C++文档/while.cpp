@@ -2,12 +2,10 @@ import std;
 
 using namespace std;
 
-int main()
-{
+int main(){
 	bool x = false;
 
-	while (x)
-	{
+	while (x){
 		cout << "近前万岁";	// 执行零次
 	}
 }
