@@ -11,7 +11,7 @@ class ai	// 定义ai类
 
 int main()
 {
-	ai ll;	// 对象
+	ai ll;	// 类的对象
 
 	cout << ll.a;	// 不可访问
 }
