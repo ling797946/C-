@@ -2,7 +2,7 @@ import std;
 
 using namespace std;
 
-class ai	// 定义ai类
+class ai
 {
 public:
 	string x = "近前";
