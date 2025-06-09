@@ -1,5 +1,5 @@
 import std;
-2
+
 using namespace std;
 
 class dd;	// 声明dd类
