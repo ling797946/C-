@@ -2,16 +2,21 @@ import std;
 
 using namespace std;
 
-class dd;	// 声明dd类
-
-class ai	// 定义ai类
-{
-	long long a = 21;
-};
-
 int main()
 {
-	ai ll;	// 实例对象
+	if (true)	// 反之亦然，因为false会选择执行else中的语句或直接跳过。
+	{
+		cout << "近前";
+	}
 
-	cout << ll.a;	// 不可访问
+	int a = 1;
+
+	if (a > 0)	// 大于0即执行if中的语句，反正将执行else中的语句。
+	{
+		cout << "南风";
+	}
+	else
+	{
+		cout << "南浪";
+	}
 }
