@@ -2,9 +2,9 @@ import std;
 
 using namespace std;
 
-class ai
+class aidf 
 {
-public:
+public:sd f
 	void ll()
 	{
 		cout << x << i;
