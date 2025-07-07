@@ -4,16 +4,29 @@
 
 ### if-else 语句
 
-使用规则：
+语法：
 
-1、如果条件为真就执行 if，如果条件为假就执行 else。
+1、如果计算结果为非零值就执行 if，如果计算结果为零值就执行 else
 
-2、else 与最近的 if 相关联，else 是可选的可选择使用或不使用。
-
-3、条件的计算结果返回的是 0 或 1，有自己的关键字true和false。
+2、else 与最近的 if 相关联，else 是可选的
 
 
 
-> true 表示 1，false 表示0，两者都是
+**单独使用 if**
+
+```c++
+import std;
+using namespace std;
+
+int main() {
+	int a = 110;
+
+	if (a) {
+		cout << a;
+	}
+}
+```
+
+**使用 if-else**
 
 
