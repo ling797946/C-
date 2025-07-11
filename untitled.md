@@ -10,9 +10,7 @@
 
 2、else 与最近的 if 相关联，else 是可选的
 
-
-
-单独使用 if
+> 单独使用 if 并打印 a 的值
 
 ```c++
 import std;
@@ -26,7 +24,7 @@ int main() {
 }
 ```
 
- 使用 if-else
+> 使用 if-else 并打印 a 的值
 
 ```cpp
 import std;
@@ -43,8 +41,6 @@ int main() {
 }
 ```
 
- 
-
 ## 跳转语句
 
 ### break 语句
@@ -53,7 +49,7 @@ int main() {
 
 1、braek 语句只终止它最近的循环语句或其所在条件语句
 
-基于 for 和 if 的使用方法
+> 基于 for 和 if 的使用方法
 
 ```c++
 import std;
@@ -69,7 +65,7 @@ int main() {
 }
 ```
 
-基于范围的 for 和 if 使用方法
+> 基于范围的 for 使用方法
 
 ```c++
 import std;
