@@ -12,21 +12,78 @@
 
 
 
-**单独使用 if**
+单独使用 if
 
 ```c++
 import std;
 using namespace std;
 
 int main() {
-	int a = 110;
+    auto a = 110;
+    if (a > 0) {
+        cout << a;
+    }
+}
+```
 
-	if (a) {
+ 使用 if-else
+
+```cpp
+import std;
+using namespace std;
+
+int main() {
+    auto a = 0;
+    if (a < 0) {
+        cout << a;
+    }
+    else {
+        cout << a << a;
+    }
+}
+```
+
+ 
+
+## 跳转语句
+
+### break 语句
+
+ 语法：
+
+1、braek 语句只终止它最近的循环语句或其所在条件语句
+
+基于 for 和 if 的使用方法
+
+```c++
+import std;
+using namespace std;
+
+int main() {
+	for (auto a = 0; a < 10; a++) {
+		if (a == 5) {
+			break;
+		}
 		cout << a;
 	}
 }
 ```
 
-**使用 if-else**
+基于范围的 for 和 if 使用方法
+
+```c++
+import std;
+using namespace std;
+
+int main() {
+	vector<int> i{ 0,1,2,3,4,5 };
+	for (auto x : i) {
+		if (x == 4) {
+			break;
+		}
+		cout << x;
+	}
+}
+```
 
 
